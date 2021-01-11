@@ -1,0 +1,1 @@
+INSERT INTO `admin`(`OID`, `fullName`, `userName`, `email`, `password`, `userRole`, `isActive`, `createdAt`) VALUES (0, 'İsmail ÖZÇELİK', 'ismail', 'geredeli1299@gmail.com', '2615', 4, 1, '2020-10-03 11:12:47');
