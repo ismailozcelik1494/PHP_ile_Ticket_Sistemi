@@ -58,11 +58,11 @@ if(isset($_POST['adsoyad']) && isset($_POST['eposta']) && isset($_POST['telno'])
         $mail->Port = 587; //25 , 465 , 587  // Port no
         $mail->Host = "smtp.gmail.com"; // Gmail in sağlamış olduğu mail servisi 
     
-        $mail->Username = "geredeli1299@gmail.com";  
-        $mail->Password = "17026670100ismail";
+        $mail->Username = "Mail adresiniz";  
+        $mail->Password = "Mail şifreniz";
     
-        $mail->setFrom("geredeli1299@gmail.com");
-        $mail->addAddress("ibrahimozcelik1497@gmail.com");
+        $mail->setFrom("mail adresiniz");
+        $mail->addAddress("gönderilecek mail adresi");
     
         $body = file_get_contents('./mail-template.html');
     
